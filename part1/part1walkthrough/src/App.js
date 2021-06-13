@@ -44,7 +44,7 @@ const App = () => {
     <div>
       {left}
       <Button onClick={handleLeftClick} text='left'/>
-      <Button onClick={handleRightClick}text='right'/>
+      <Button onClick={handleRightClick} text='right'/>
       {right}
       <History allClicks={allClicks} />
     </div>
