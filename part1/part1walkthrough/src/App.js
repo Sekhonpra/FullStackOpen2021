@@ -4,7 +4,7 @@ const History = (props) => {
   if(props.allClicks.length === 0){
     return (
       <div>
-        the app is used by presstign the buttons
+        the app is used by pressing the buttons
       </div>
     )
   }
